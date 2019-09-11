@@ -8,12 +8,82 @@
 
 /* Begin PBXBuildFile section */
 		FD15CC9D2329B4E2004872E1 /* VitayCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FD15CC9B2329B4E2004872E1 /* VitayCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD15CCB02329B530004872E1 /* StartLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCA92329B530004872E1 /* StartLoader.swift */; };
+		FD15CCB12329B530004872E1 /* Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAA2329B530004872E1 /* Rounded.swift */; };
+		FD15CCB22329B530004872E1 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAB2329B530004872E1 /* EmptyState.swift */; };
+		FD15CCB32329B530004872E1 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAC2329B530004872E1 /* Loader.swift */; };
+		FD15CCB42329B530004872E1 /* AccessLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAD2329B530004872E1 /* AccessLocation.swift */; };
+		FD15CCB52329B530004872E1 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAE2329B530004872E1 /* Alerta.swift */; };
+		FD15CCB62329B530004872E1 /* Bouncing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAF2329B530004872E1 /* Bouncing.swift */; };
+		FD15CCC22329B569004872E1 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCB72329B569004872E1 /* Token.swift */; };
+		FD15CCC32329B569004872E1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCB82329B569004872E1 /* Settings.swift */; };
+		FD15CCC42329B569004872E1 /* Zona.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCB92329B569004872E1 /* Zona.swift */; };
+		FD15CCC52329B569004872E1 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBA2329B569004872E1 /* Tag.swift */; };
+		FD15CCC62329B569004872E1 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBB2329B569004872E1 /* Banner.swift */; };
+		FD15CCC72329B569004872E1 /* Sexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBC2329B569004872E1 /* Sexo.swift */; };
+		FD15CCC82329B569004872E1 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBD2329B569004872E1 /* Persona.swift */; };
+		FD15CCC92329B569004872E1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBE2329B569004872E1 /* Error.swift */; };
+		FD15CCCA2329B569004872E1 /* Cancelacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCBF2329B569004872E1 /* Cancelacion.swift */; };
+		FD15CCCB2329B569004872E1 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCC02329B569004872E1 /* JSON.swift */; };
+		FD15CCCC2329B569004872E1 /* InformacionMedica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCC12329B569004872E1 /* InformacionMedica.swift */; };
+		FD15CCD72329B580004872E1 /* CPPlaceMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCCD2329B580004872E1 /* CPPlaceMark.swift */; };
+		FD15CCD82329B580004872E1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCCE2329B580004872E1 /* Date.swift */; };
+		FD15CCD92329B580004872E1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCCF2329B580004872E1 /* UIView.swift */; };
+		FD15CCDA2329B580004872E1 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD02329B580004872E1 /* UIDevice.swift */; };
+		FD15CCDB2329B580004872E1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD12329B580004872E1 /* String.swift */; };
+		FD15CCDC2329B580004872E1 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD22329B580004872E1 /* UIScrollView.swift */; };
+		FD15CCDD2329B580004872E1 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD32329B580004872E1 /* TimeInterval.swift */; };
+		FD15CCDE2329B580004872E1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD42329B580004872E1 /* UIViewController.swift */; };
+		FD15CCDF2329B580004872E1 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD52329B580004872E1 /* UITextField.swift */; };
+		FD15CCE02329B580004872E1 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCD62329B580004872E1 /* Number.swift */; };
+		FD15CCE22329B589004872E1 /* GeneralProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE12329B589004872E1 /* GeneralProtocol.swift */; };
+		FD15CCE52329B58F004872E1 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE32329B58F004872E1 /* DataStore.swift */; };
+		FD15CCE62329B58F004872E1 /* HapticFeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE42329B58F004872E1 /* HapticFeedbackService.swift */; };
+		FD15CCE82329B597004872E1 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE72329B597004872E1 /* Handlers.swift */; };
+		FD15CCEA2329B5BA004872E1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE92329B5BA004872E1 /* Response.swift */; };
+		FD15CCEE2329B7E5004872E1 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15CCEC2329B7E5004872E1 /* Lottie.framework */; };
+		FD15CCEF2329B7E5004872E1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15CCED2329B7E5004872E1 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD15CC982329B4E2004872E1 /* VitayCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VitayCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD15CC9B2329B4E2004872E1 /* VitayCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitayCore.h; sourceTree = "<group>"; };
 		FD15CC9C2329B4E2004872E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD15CCA92329B530004872E1 /* StartLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartLoader.swift; sourceTree = "<group>"; };
+		FD15CCAA2329B530004872E1 /* Rounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rounded.swift; sourceTree = "<group>"; };
+		FD15CCAB2329B530004872E1 /* EmptyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		FD15CCAC2329B530004872E1 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		FD15CCAD2329B530004872E1 /* AccessLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessLocation.swift; sourceTree = "<group>"; };
+		FD15CCAE2329B530004872E1 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		FD15CCAF2329B530004872E1 /* Bouncing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouncing.swift; sourceTree = "<group>"; };
+		FD15CCB72329B569004872E1 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		FD15CCB82329B569004872E1 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		FD15CCB92329B569004872E1 /* Zona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zona.swift; sourceTree = "<group>"; };
+		FD15CCBA2329B569004872E1 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		FD15CCBB2329B569004872E1 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		FD15CCBC2329B569004872E1 /* Sexo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sexo.swift; sourceTree = "<group>"; };
+		FD15CCBD2329B569004872E1 /* Persona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		FD15CCBE2329B569004872E1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		FD15CCBF2329B569004872E1 /* Cancelacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancelacion.swift; sourceTree = "<group>"; };
+		FD15CCC02329B569004872E1 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		FD15CCC12329B569004872E1 /* InformacionMedica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformacionMedica.swift; sourceTree = "<group>"; };
+		FD15CCCD2329B580004872E1 /* CPPlaceMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPPlaceMark.swift; sourceTree = "<group>"; };
+		FD15CCCE2329B580004872E1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		FD15CCCF2329B580004872E1 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FD15CCD02329B580004872E1 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		FD15CCD12329B580004872E1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FD15CCD22329B580004872E1 /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		FD15CCD32329B580004872E1 /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		FD15CCD42329B580004872E1 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		FD15CCD52329B580004872E1 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		FD15CCD62329B580004872E1 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		FD15CCE12329B589004872E1 /* GeneralProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralProtocol.swift; sourceTree = "<group>"; };
+		FD15CCE32329B58F004872E1 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		FD15CCE42329B58F004872E1 /* HapticFeedbackService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticFeedbackService.swift; sourceTree = "<group>"; };
+		FD15CCE72329B597004872E1 /* Handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		FD15CCE92329B5BA004872E1 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		FD15CCEC2329B7E5004872E1 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		FD15CCED2329B7E5004872E1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD15CCEE2329B7E5004872E1 /* Lottie.framework in Frameworks */,
+				FD15CCEF2329B7E5004872E1 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +104,7 @@
 			children = (
 				FD15CC9A2329B4E2004872E1 /* VitayCore */,
 				FD15CC992329B4E2004872E1 /* Products */,
+				FD15CCEB2329B7E5004872E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +119,100 @@
 		FD15CC9A2329B4E2004872E1 /* VitayCore */ = {
 			isa = PBXGroup;
 			children = (
+				FD15CCA82329B4F4004872E1 /* Tipos */,
+				FD15CCA72329B4F3004872E1 /* Tiendas */,
+				FD15CCA62329B4F1004872E1 /* Protocolos */,
+				FD15CCA52329B4EF004872E1 /* Extensiones */,
+				FD15CCA42329B4EE004872E1 /* Views */,
+				FD15CCA32329B4E8004872E1 /* Modelos */,
 				FD15CC9B2329B4E2004872E1 /* VitayCore.h */,
 				FD15CC9C2329B4E2004872E1 /* Info.plist */,
 			);
 			path = VitayCore;
+			sourceTree = "<group>";
+		};
+		FD15CCA32329B4E8004872E1 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCBB2329B569004872E1 /* Banner.swift */,
+				FD15CCBF2329B569004872E1 /* Cancelacion.swift */,
+				FD15CCBE2329B569004872E1 /* Error.swift */,
+				FD15CCC12329B569004872E1 /* InformacionMedica.swift */,
+				FD15CCC02329B569004872E1 /* JSON.swift */,
+				FD15CCBD2329B569004872E1 /* Persona.swift */,
+				FD15CCB82329B569004872E1 /* Settings.swift */,
+				FD15CCBC2329B569004872E1 /* Sexo.swift */,
+				FD15CCBA2329B569004872E1 /* Tag.swift */,
+				FD15CCB72329B569004872E1 /* Token.swift */,
+				FD15CCB92329B569004872E1 /* Zona.swift */,
+				FD15CCE92329B5BA004872E1 /* Response.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		FD15CCA42329B4EE004872E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCAD2329B530004872E1 /* AccessLocation.swift */,
+				FD15CCAE2329B530004872E1 /* Alerta.swift */,
+				FD15CCAF2329B530004872E1 /* Bouncing.swift */,
+				FD15CCAB2329B530004872E1 /* EmptyState.swift */,
+				FD15CCAC2329B530004872E1 /* Loader.swift */,
+				FD15CCAA2329B530004872E1 /* Rounded.swift */,
+				FD15CCA92329B530004872E1 /* StartLoader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD15CCA52329B4EF004872E1 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCCD2329B580004872E1 /* CPPlaceMark.swift */,
+				FD15CCCE2329B580004872E1 /* Date.swift */,
+				FD15CCD62329B580004872E1 /* Number.swift */,
+				FD15CCD12329B580004872E1 /* String.swift */,
+				FD15CCD32329B580004872E1 /* TimeInterval.swift */,
+				FD15CCD02329B580004872E1 /* UIDevice.swift */,
+				FD15CCD22329B580004872E1 /* UIScrollView.swift */,
+				FD15CCD52329B580004872E1 /* UITextField.swift */,
+				FD15CCCF2329B580004872E1 /* UIView.swift */,
+				FD15CCD42329B580004872E1 /* UIViewController.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		FD15CCA62329B4F1004872E1 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCE12329B589004872E1 /* GeneralProtocol.swift */,
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		FD15CCA72329B4F3004872E1 /* Tiendas */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCE32329B58F004872E1 /* DataStore.swift */,
+				FD15CCE42329B58F004872E1 /* HapticFeedbackService.swift */,
+			);
+			path = Tiendas;
+			sourceTree = "<group>";
+		};
+		FD15CCA82329B4F4004872E1 /* Tipos */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCE72329B597004872E1 /* Handlers.swift */,
+			);
+			path = Tipos;
+			sourceTree = "<group>";
+		};
+		FD15CCEB2329B7E5004872E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD15CCEC2329B7E5004872E1 /* Lottie.framework */,
+				FD15CCED2329B7E5004872E1 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +237,7 @@
 				FD15CC942329B4E2004872E1 /* Sources */,
 				FD15CC952329B4E2004872E1 /* Frameworks */,
 				FD15CC962329B4E2004872E1 /* Resources */,
+				FD15CCF02329B7EA004872E1 /* Carthage Script */,
 			);
 			buildRules = (
 			);
@@ -95,6 +259,7 @@
 				TargetAttributes = {
 					FD15CC972329B4E2004872E1 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -125,11 +290,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FD15CCF02329B7EA004872E1 /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = "Carthage Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Lottie.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD15CC942329B4E2004872E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD15CCC72329B569004872E1 /* Sexo.swift in Sources */,
+				FD15CCB22329B530004872E1 /* EmptyState.swift in Sources */,
+				FD15CCDF2329B580004872E1 /* UITextField.swift in Sources */,
+				FD15CCDB2329B580004872E1 /* String.swift in Sources */,
+				FD15CCB02329B530004872E1 /* StartLoader.swift in Sources */,
+				FD15CCB32329B530004872E1 /* Loader.swift in Sources */,
+				FD15CCB12329B530004872E1 /* Rounded.swift in Sources */,
+				FD15CCEA2329B5BA004872E1 /* Response.swift in Sources */,
+				FD15CCDA2329B580004872E1 /* UIDevice.swift in Sources */,
+				FD15CCE02329B580004872E1 /* Number.swift in Sources */,
+				FD15CCB62329B530004872E1 /* Bouncing.swift in Sources */,
+				FD15CCC82329B569004872E1 /* Persona.swift in Sources */,
+				FD15CCC62329B569004872E1 /* Banner.swift in Sources */,
+				FD15CCB52329B530004872E1 /* Alerta.swift in Sources */,
+				FD15CCE52329B58F004872E1 /* DataStore.swift in Sources */,
+				FD15CCC52329B569004872E1 /* Tag.swift in Sources */,
+				FD15CCD92329B580004872E1 /* UIView.swift in Sources */,
+				FD15CCC32329B569004872E1 /* Settings.swift in Sources */,
+				FD15CCD82329B580004872E1 /* Date.swift in Sources */,
+				FD15CCE62329B58F004872E1 /* HapticFeedbackService.swift in Sources */,
+				FD15CCC42329B569004872E1 /* Zona.swift in Sources */,
+				FD15CCE22329B589004872E1 /* GeneralProtocol.swift in Sources */,
+				FD15CCDD2329B580004872E1 /* TimeInterval.swift in Sources */,
+				FD15CCCA2329B569004872E1 /* Cancelacion.swift in Sources */,
+				FD15CCD72329B580004872E1 /* CPPlaceMark.swift in Sources */,
+				FD15CCB42329B530004872E1 /* AccessLocation.swift in Sources */,
+				FD15CCDE2329B580004872E1 /* UIViewController.swift in Sources */,
+				FD15CCE82329B597004872E1 /* Handlers.swift in Sources */,
+				FD15CCCC2329B569004872E1 /* InformacionMedica.swift in Sources */,
+				FD15CCCB2329B569004872E1 /* JSON.swift in Sources */,
+				FD15CCDC2329B580004872E1 /* UIScrollView.swift in Sources */,
+				FD15CCC92329B569004872E1 /* Error.swift in Sources */,
+				FD15CCC22329B569004872E1 /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +484,7 @@
 		FD15CCA12329B4E2004872E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -268,6 +492,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VitayCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -278,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.vitay.VitayCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +515,7 @@
 		FD15CCA22329B4E2004872E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -293,6 +523,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = VitayCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

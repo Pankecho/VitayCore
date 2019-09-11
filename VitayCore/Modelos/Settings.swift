@@ -7,11 +7,18 @@
 //
 
 import Foundation
+import SwiftyJSON
 
-public class Settings {
+public struct Settings {
     public var Direccion: String
     public var Telefono: String
     public var TerminosYCondiciones: String
+    
+    public init(json: JSON) {
+        Direccion = json["Direccion"].stringValue
+        Telefono = json["Telefono"].stringValue
+        TerminosYCondiciones = json["TerminosCondiciones"].stringValue
+    }
     
     public init() {
         Direccion = ""

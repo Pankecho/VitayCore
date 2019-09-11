@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Sexo: Encodable, ToJson{
+public struct Sexo: Encodable, ToJson{
     public var Id: Int
     public var Nombre: String
     

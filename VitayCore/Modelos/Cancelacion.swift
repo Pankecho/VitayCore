@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 public enum TipoCancelacion: String {
     case CLIENTE
@@ -14,7 +15,7 @@ public enum TipoCancelacion: String {
     case AMBOS
 }
 
-public class RazonCancelacion{
+public struct RazonCancelacion{
     public var Id: String
     public var Nombre: String
     public var Index: Int
@@ -25,5 +26,13 @@ public class RazonCancelacion{
         Nombre = ""
         Index = 0
         Tipo = .AMBOS
+    }
+    
+    public init(json: JSON){
+        Id = json["Id"].stringValue
+        Nombre = json["Nombre"].stringValue
+        Index = json["Index"].intValue
+        let value = json["Tipo"].stringValue
+        Tipo = TipoCancelacion(rawValue: value) ?? .AMBOS
     }
 }

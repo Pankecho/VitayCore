@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 public class Geozona: Encodable, ToJson {
     public var Lat: Double = 0.0
@@ -31,7 +32,13 @@ public class Geozona: Encodable, ToJson {
         self.Long = long
         self.Index = 0
     }
-
+    
+    public init(json: JSON) {
+        self.Lat = json["Latitud"].doubleValue
+        self.Long = json["Longitud"].doubleValue
+        self.Index = json["Index"].intValue
+    }
+    
     public func parse() -> Data{
         let encoder = JSONEncoder()
         encoder.outputFormatting = .prettyPrinted
@@ -40,12 +47,22 @@ public class Geozona: Encodable, ToJson {
     }
 }
 
-public class Zone: Encodable{
+public struct Zone: Encodable{
     public var Id: String
     public var Geozonas: [Geozona]
     
     public init() {
         self.Id = ""
         self.Geozonas = []
+    }
+    
+    public init(json: JSON) {
+        self.Id = json["Id"].stringValue
+        self.Geozonas = []
+        let array = json["Geozonas"].arrayValue
+        array.forEach { (i) in
+            let geo = Geozona(json: i)
+            self.Geozonas.append(geo)
+        }
     }
 }

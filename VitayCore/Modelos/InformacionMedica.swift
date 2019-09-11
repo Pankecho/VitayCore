@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 public class DatosMedicos {
     public var TipoSangre: SangreTipo
@@ -26,9 +27,25 @@ public class DatosMedicos {
         Tags = []
         isLoaded = false
     }
+    
+    public init(json: JSON) {
+        TipoSangre = SangreTipo(rawValue: json["TipoSangre"].stringValue) ?? .OPositivo
+        Peso = json["Peso"].doubleValue
+        RitmoCardiaco = json["RitmoCardiaco"].doubleValue
+        PresionArterial = json["PresionArterial"].doubleValue
+        Estatura = json["Estatura"].doubleValue
+        isLoaded = json["InformacionMedica"].boolValue
+        Tags = []
+        let enfermedades = json["Enfermedades"].arrayValue.map({ Tag(json: $0) })
+        let alergias = json["Alergias"].arrayValue.map({ Tag(json: $0) })
+        let capacidades = json["Capacidades"].arrayValue.map({ Tag(json: $0) })
+        Tags.append(contentsOf: enfermedades)
+        Tags.append(contentsOf: alergias)
+        Tags.append(contentsOf: capacidades)
+    }
 }
 
-public class InformacionMedica: Encodable, ToJson{
+public struct InformacionMedica: Encodable, ToJson{
     public var Peso: Double
     public var Ritmo: Double
     public var Presion: Double

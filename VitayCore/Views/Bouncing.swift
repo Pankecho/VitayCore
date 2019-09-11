@@ -8,9 +8,10 @@
 
 import Foundation
 
+@IBDesignable
 public class BouncingButton: UIButton {
     
-    public var canVibrate: Bool = false
+    @IBInspectable public var canVibrate: Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)

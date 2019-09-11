@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 public enum TagTipo: String {
     case Enfermedad
@@ -15,7 +16,7 @@ public enum TagTipo: String {
     case SinClasificar
 }
 
-public class Tag {
+public struct Tag {
     public var Id: String
     public var Tag: String
     public var Tipo: TagTipo
@@ -24,6 +25,13 @@ public class Tag {
         self.Id = ""
         self.Tag = ""
         self.Tipo = .SinClasificar
+    }
+    
+    public init(json: JSON) {
+        self.Id = json["Id"].stringValue
+        self.Tag = json["Tag"].stringValue
+        let value = json["Tipo"].stringValue
+        self.Tipo = TagTipo.init(rawValue: value) ?? .SinClasificar
     }
 }
 
