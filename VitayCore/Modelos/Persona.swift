@@ -45,7 +45,7 @@ public class Person: Encodable, ToJson {
         self.PrimerApellido = json["PrimerApellido"].stringValue
         self.SegundoApellido = json["SegundoApellido"].stringValue
         let fecha = json["FechaNacimiento"].stringValue
-        self.FechaNacimiento = String(fecha.split(separator: "T")[0]).replacingOccurrences(of: "-", with: "/")
+        self.FechaNacimiento = fecha.isEmpty ? "" : String(fecha.split(separator: "T")[0]).replacingOccurrences(of: "-", with: "/")
         self.FotoPerfil = json["FotoPerfil"].stringValue
         self.Email = json["Email"].stringValue
         self.Telefono = json["Telefono"].stringValue
