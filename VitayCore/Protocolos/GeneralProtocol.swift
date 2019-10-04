@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol General {
+public protocol General: class {
     func showError(error: Error)
     func success()
 }

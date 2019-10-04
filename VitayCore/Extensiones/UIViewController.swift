@@ -15,33 +15,33 @@ public extension UIViewController {
     }
     
     func showAlertaDefault(_ title: String, _ message: String){
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: NSLocalizedString("Accept", comment: ""), style: .default, handler: nil))
         DispatchQueue.main.async {[weak self] in
-            let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            ac.addAction(UIAlertAction(title: NSLocalizedString("Accept", comment: ""), style: .default, handler: nil))
             self?.present(ac, animated: true, completion: nil)
         }
     }
     
     func showAlertaWithCustomHandler(_ title: String, _ message: String, _ mensaje: String , handlerOk: normalHandler?){
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: mensaje, style: .default) { (_) in
+            handlerOk?()
+        }
+        ac.addAction(action)
         DispatchQueue.main.async {[weak self] in
-            let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: mensaje, style: .default) { (_) in
-                handlerOk?()
-            }
-            ac.addAction(action)
             self?.present(ac, animated: true, completion: nil)
         }
     }
     
     func showAlertaDosOpcionesWithCompletion(_ title: String, _ message: String, _ messageOpcion: String, handlerOpcion: normalHandler?, completion: normalHandler?){
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: messageOpcion, style: .default) { (_) in
+            handlerOpcion?()
+        }
+        let cancel = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil)
+        ac.addAction(cancel)
+        ac.addAction(action)
         DispatchQueue.main.async {[weak self] in
-            let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: messageOpcion, style: .default) { (_) in
-                handlerOpcion?()
-            }
-            let cancel = UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: nil)
-            ac.addAction(cancel)
-            ac.addAction(action)
             self?.present(ac, animated: true) {
                 completion?()
             }
@@ -49,16 +49,16 @@ public extension UIViewController {
     }
     
     func showAlertaDosOpcionesWithHandler(_ title: String, _ message: String, _ messageOpcion: String, _ cancelOpcion: String = NSLocalizedString("Cancel", comment: ""), messageHandler: normalHandler?, cancelHandler: normalHandler?){
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: messageOpcion, style: .default) { (_) in
+            messageHandler?()
+        }
+        let cancel = UIAlertAction(title: cancelOpcion, style: .cancel) { (_) in
+            cancelHandler?()
+        }
+        ac.addAction(cancel)
+        ac.addAction(action)
         DispatchQueue.main.async {[weak self] in
-            let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            let action = UIAlertAction(title: messageOpcion, style: .default) { (_) in
-                messageHandler?()
-            }
-            let cancel = UIAlertAction(title: cancelOpcion, style: .cancel) { (_) in
-                cancelHandler?()
-            }
-            ac.addAction(cancel)
-            ac.addAction(action)
             self?.present(ac, animated: true)
         }
     }
@@ -107,13 +107,13 @@ public extension UIViewController {
     }
     
     func setTitle(title: String){
-        self.navigationItem.title = title
+        navigationItem.title = title
     }
     
     func setBackButton(title: String = "Back"){
         let backbutton = UIBarButtonItem()
         backbutton.title = title
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backbutton
+        navigationController?.navigationBar.topItem?.backBarButtonItem = backbutton
     }
     
     func animateAppearView(view: UIView, time: TimeInterval, appear: Bool = true, completion: normalHandler?) {
