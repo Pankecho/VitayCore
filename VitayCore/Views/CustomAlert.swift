@@ -8,9 +8,9 @@
 
 import Foundation
 
-class CustomAlert: UIView {
+public class CustomAlert: UIView {
     
-    static let shared = CustomAlert()
+    public static let shared = CustomAlert()
     
     @IBOutlet var parentView: UIView!
     @IBOutlet weak var alertaWrapperView: UIView!
@@ -39,7 +39,7 @@ class CustomAlert: UIView {
         parentView.frame = UIScreen.main.bounds
     }
     
-    func showAlertaDefault(_ title: String, _ message: String) {
+    public func showAlertaDefault(_ title: String, _ message: String) {
         clean()
         titleLabel.text = title
         messageLabel.text = message
@@ -50,7 +50,7 @@ class CustomAlert: UIView {
         }
     }
     
-    func showAlertaWithCustomHandler(_ title: String, _ message: String, _ opcionAccept: String, _ handlerOk: normalHandler?) {
+    public func showAlertaWithCustomHandler(_ title: String, _ message: String, _ opcionAccept: String, _ handlerOk: normalHandler?) {
         clean()
         titleLabel.text = title
         messageLabel.text = message
@@ -62,7 +62,7 @@ class CustomAlert: UIView {
         }
     }
     
-    func showAlertaWithOneOptionCustomHandler(_ title: String, _ message: String, _ opcionAccept: String, _ handlerOk: normalHandler?) {
+    public func showAlertaWithOneOptionCustomHandler(_ title: String, _ message: String, _ opcionAccept: String, _ handlerOk: normalHandler?) {
         clean()
         titleLabel.text = title
         messageLabel.text = message
