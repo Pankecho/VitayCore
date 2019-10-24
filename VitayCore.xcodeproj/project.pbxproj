@@ -47,6 +47,7 @@
 		FDB256AE2362491400F177D5 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256AD2362491400F177D5 /* MKMapView.swift */; };
 		FDB256B023624A0800F177D5 /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB256AF23624A0800F177D5 /* CustomAlert.xib */; };
 		FDB256B223624A1700F177D5 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256B123624A1700F177D5 /* CustomAlert.swift */; };
+		FDB256B423624C9200F177D5 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256B323624C9200F177D5 /* UINavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		FDB256AD2362491400F177D5 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
 		FDB256AF23624A0800F177D5 /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
 		FDB256B123624A1700F177D5 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		FDB256B323624C9200F177D5 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				FDB256A9236248D500F177D5 /* UIColor.swift */,
 				FDB256AB2362490100F177D5 /* MKPolygon.swift */,
 				FDB256AD2362491400F177D5 /* MKMapView.swift */,
+				FDB256B323624C9200F177D5 /* UINavigationBar.swift */,
 			);
 			path = Extensiones;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				FD15CCDA2329B580004872E1 /* UIDevice.swift in Sources */,
 				FD15CCE02329B580004872E1 /* Number.swift in Sources */,
 				FD15CCB62329B530004872E1 /* Bouncing.swift in Sources */,
+				FDB256B423624C9200F177D5 /* UINavigationBar.swift in Sources */,
 				FD15CCC82329B569004872E1 /* Persona.swift in Sources */,
 				FD15CCC62329B569004872E1 /* Banner.swift in Sources */,
 				FD15CCE52329B58F004872E1 /* DataStore.swift in Sources */,
