@@ -45,8 +45,6 @@
 		FDB256AA236248D500F177D5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256A9236248D500F177D5 /* UIColor.swift */; };
 		FDB256AC2362490100F177D5 /* MKPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256AB2362490100F177D5 /* MKPolygon.swift */; };
 		FDB256AE2362491400F177D5 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256AD2362491400F177D5 /* MKMapView.swift */; };
-		FDB256B023624A0800F177D5 /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB256AF23624A0800F177D5 /* CustomAlert.xib */; };
-		FDB256B223624A1700F177D5 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256B123624A1700F177D5 /* CustomAlert.swift */; };
 		FDB256B423624C9200F177D5 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256B323624C9200F177D5 /* UINavigationBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -91,8 +89,6 @@
 		FDB256A9236248D500F177D5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		FDB256AB2362490100F177D5 /* MKPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPolygon.swift; sourceTree = "<group>"; };
 		FDB256AD2362491400F177D5 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
-		FDB256AF23624A0800F177D5 /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
-		FDB256B123624A1700F177D5 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		FDB256B323624C9200F177D5 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,8 +165,6 @@
 				FD15CCAC2329B530004872E1 /* Loader.swift */,
 				FD15CCAA2329B530004872E1 /* Rounded.swift */,
 				FD15CCA92329B530004872E1 /* StartLoader.swift */,
-				FDB256AF23624A0800F177D5 /* CustomAlert.xib */,
-				FDB256B123624A1700F177D5 /* CustomAlert.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,7 +294,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB256B023624A0800F177D5 /* CustomAlert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +307,6 @@
 				FD15CCC72329B569004872E1 /* Sexo.swift in Sources */,
 				FD15CCB22329B530004872E1 /* EmptyState.swift in Sources */,
 				FD15CCDF2329B580004872E1 /* UITextField.swift in Sources */,
-				FDB256B223624A1700F177D5 /* CustomAlert.swift in Sources */,
 				FD15CCDB2329B580004872E1 /* String.swift in Sources */,
 				FD15CCB02329B530004872E1 /* StartLoader.swift in Sources */,
 				FD15CCB32329B530004872E1 /* Loader.swift in Sources */,
