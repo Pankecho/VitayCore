@@ -134,4 +134,26 @@ public extension UIView{
             self.backgroundColor = color
         }, completion: nil)
     }
+    
+    func banish(_ value: Bool = true) {
+        UIView.animate(withDuration: 0.25) {
+            self.alpha = value ? 0 : 1
+        }
+    }
+    
+    func addBorderBottom(color: UIColor = UIColor(named: "DarkGray") ?? .black) {
+        let bottom = CALayer()
+        bottom.frame = CGRect(x: 0, y: self.frame.height - 1, width: self.frame.width, height: 1)
+        bottom.backgroundColor = color.cgColor
+        layer.masksToBounds = true
+        layer.addSublayer(bottom)
+    }
+    
+    func removeFromSuperviewAnimated() {
+        UIView.animate(withDuration: 0.25, animations: {
+            self.alpha = 0
+        }) { (_) in
+            self.removeFromSuperview()
+        }
+    }
 }

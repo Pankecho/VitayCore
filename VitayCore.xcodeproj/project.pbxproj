@@ -13,7 +13,6 @@
 		FD15CCB22329B530004872E1 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAB2329B530004872E1 /* EmptyState.swift */; };
 		FD15CCB32329B530004872E1 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAC2329B530004872E1 /* Loader.swift */; };
 		FD15CCB42329B530004872E1 /* AccessLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAD2329B530004872E1 /* AccessLocation.swift */; };
-		FD15CCB52329B530004872E1 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAE2329B530004872E1 /* Alerta.swift */; };
 		FD15CCB62329B530004872E1 /* Bouncing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCAF2329B530004872E1 /* Bouncing.swift */; };
 		FD15CCC22329B569004872E1 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCB72329B569004872E1 /* Token.swift */; };
 		FD15CCC32329B569004872E1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCB82329B569004872E1 /* Settings.swift */; };
@@ -43,6 +42,11 @@
 		FD15CCEA2329B5BA004872E1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD15CCE92329B5BA004872E1 /* Response.swift */; };
 		FD15CCEE2329B7E5004872E1 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15CCEC2329B7E5004872E1 /* Lottie.framework */; };
 		FD15CCEF2329B7E5004872E1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD15CCED2329B7E5004872E1 /* SwiftyJSON.framework */; };
+		FDB256AA236248D500F177D5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256A9236248D500F177D5 /* UIColor.swift */; };
+		FDB256AC2362490100F177D5 /* MKPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256AB2362490100F177D5 /* MKPolygon.swift */; };
+		FDB256AE2362491400F177D5 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256AD2362491400F177D5 /* MKMapView.swift */; };
+		FDB256B023624A0800F177D5 /* CustomAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDB256AF23624A0800F177D5 /* CustomAlert.xib */; };
+		FDB256B223624A1700F177D5 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB256B123624A1700F177D5 /* CustomAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +58,6 @@
 		FD15CCAB2329B530004872E1 /* EmptyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		FD15CCAC2329B530004872E1 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		FD15CCAD2329B530004872E1 /* AccessLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessLocation.swift; sourceTree = "<group>"; };
-		FD15CCAE2329B530004872E1 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
 		FD15CCAF2329B530004872E1 /* Bouncing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bouncing.swift; sourceTree = "<group>"; };
 		FD15CCB72329B569004872E1 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		FD15CCB82329B569004872E1 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -84,6 +87,11 @@
 		FD15CCE92329B5BA004872E1 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		FD15CCEC2329B7E5004872E1 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
 		FD15CCED2329B7E5004872E1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FDB256A9236248D500F177D5 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FDB256AB2362490100F177D5 /* MKPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPolygon.swift; sourceTree = "<group>"; };
+		FDB256AD2362491400F177D5 /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		FDB256AF23624A0800F177D5 /* CustomAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomAlert.xib; sourceTree = "<group>"; };
+		FDB256B123624A1700F177D5 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,12 +162,13 @@
 			isa = PBXGroup;
 			children = (
 				FD15CCAD2329B530004872E1 /* AccessLocation.swift */,
-				FD15CCAE2329B530004872E1 /* Alerta.swift */,
 				FD15CCAF2329B530004872E1 /* Bouncing.swift */,
 				FD15CCAB2329B530004872E1 /* EmptyState.swift */,
 				FD15CCAC2329B530004872E1 /* Loader.swift */,
 				FD15CCAA2329B530004872E1 /* Rounded.swift */,
 				FD15CCA92329B530004872E1 /* StartLoader.swift */,
+				FDB256AF23624A0800F177D5 /* CustomAlert.xib */,
+				FDB256B123624A1700F177D5 /* CustomAlert.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +186,9 @@
 				FD15CCD52329B580004872E1 /* UITextField.swift */,
 				FD15CCCF2329B580004872E1 /* UIView.swift */,
 				FD15CCD42329B580004872E1 /* UIViewController.swift */,
+				FDB256A9236248D500F177D5 /* UIColor.swift */,
+				FDB256AB2362490100F177D5 /* MKPolygon.swift */,
+				FDB256AD2362491400F177D5 /* MKMapView.swift */,
 			);
 			path = Extensiones;
 			sourceTree = "<group>";
@@ -285,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB256B023624A0800F177D5 /* CustomAlert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +311,7 @@
 				FD15CCC72329B569004872E1 /* Sexo.swift in Sources */,
 				FD15CCB22329B530004872E1 /* EmptyState.swift in Sources */,
 				FD15CCDF2329B580004872E1 /* UITextField.swift in Sources */,
+				FDB256B223624A1700F177D5 /* CustomAlert.swift in Sources */,
 				FD15CCDB2329B580004872E1 /* String.swift in Sources */,
 				FD15CCB02329B530004872E1 /* StartLoader.swift in Sources */,
 				FD15CCB32329B530004872E1 /* Loader.swift in Sources */,
@@ -308,8 +322,8 @@
 				FD15CCB62329B530004872E1 /* Bouncing.swift in Sources */,
 				FD15CCC82329B569004872E1 /* Persona.swift in Sources */,
 				FD15CCC62329B569004872E1 /* Banner.swift in Sources */,
-				FD15CCB52329B530004872E1 /* Alerta.swift in Sources */,
 				FD15CCE52329B58F004872E1 /* DataStore.swift in Sources */,
+				FDB256AE2362491400F177D5 /* MKMapView.swift in Sources */,
 				FD15CCC52329B569004872E1 /* Tag.swift in Sources */,
 				FD15CCD92329B580004872E1 /* UIView.swift in Sources */,
 				FD15CCC32329B569004872E1 /* Settings.swift in Sources */,
@@ -318,7 +332,9 @@
 				FD15CCC42329B569004872E1 /* Zona.swift in Sources */,
 				FD15CCE22329B589004872E1 /* GeneralProtocol.swift in Sources */,
 				FD15CCDD2329B580004872E1 /* TimeInterval.swift in Sources */,
+				FDB256AA236248D500F177D5 /* UIColor.swift in Sources */,
 				FD15CCCA2329B569004872E1 /* Cancelacion.swift in Sources */,
+				FDB256AC2362490100F177D5 /* MKPolygon.swift in Sources */,
 				FD15CCD72329B580004872E1 /* CPPlaceMark.swift in Sources */,
 				FD15CCB42329B530004872E1 /* AccessLocation.swift in Sources */,
 				FD15CCDE2329B580004872E1 /* UIViewController.swift in Sources */,

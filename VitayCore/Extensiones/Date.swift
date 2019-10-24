@@ -37,4 +37,9 @@ public extension Date{
         let formatter = ISO8601DateFormatter()
         self = formatter.date(from: isoDate) ?? Date()
     }
+    
+    static func format(from string: String) -> Date? {
+        let formatter = ISO8601DateFormatter()
+        return formatter.date(from: string)
+    }
 }
