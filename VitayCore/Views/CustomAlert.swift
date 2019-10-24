@@ -10,7 +10,7 @@ import Foundation
 
 public class CustomAlert: UIView {
     
-    public static let shared = CustomAlert()
+    public static let shared = CustomAlert(frame: UIScreen.main.bounds)
     
     @IBOutlet var parentView: UIView!
     @IBOutlet weak var alertaWrapperView: UIView!
