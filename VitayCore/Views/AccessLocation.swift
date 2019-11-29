@@ -9,22 +9,6 @@
 import Foundation
 
 public class NotAccessLocationView: UIView{
-    private lazy var header: UIView = {
-        let vista = UIView()
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        vista.translatesAutoresizingMaskIntoConstraints = false
-        
-        vista.backgroundColor = UIColor(named: "Rojo")
-        label.font = UIFont.systemFont(ofSize: 16, weight: .medium)
-        label.textColor = UIColor.white
-        
-        vista.addSubview(label)
-        label.centerXAnchor.constraint(equalTo: vista.centerXAnchor).isActive = true
-        label.centerYAnchor.constraint(equalTo: vista.safeAreaLayoutGuide.centerYAnchor).isActive = true
-        vista.layoutIfNeeded()
-        return vista
-    }()
     
     private lazy var accessDescriptionLabel: UILabel = {
         let label = UILabel()
@@ -33,7 +17,7 @@ public class NotAccessLocationView: UIView{
         label.font = UIFont.systemFont(ofSize: 16)
         label.adjustsFontSizeToFitWidth = true
         label.minimumScaleFactor = 0.8
-        label.textAlignment = NSTextAlignment.center
+        label.textAlignment = .center
         label.textColor = UIColor(named: "Inactive") ?? UIColor.black
         label.text = NSLocalizedString("VitayNeedAccess", comment: "")
         return label
@@ -110,6 +94,7 @@ public class NotAccessLocationView: UIView{
         layoutIfNeeded()
     }
     
+    // TODO: Refactorizar codigo
     public func remove(){
         UIView.animate(withDuration: 0.5, animations: {[weak self] in
             self?.alpha = 0

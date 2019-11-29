@@ -15,6 +15,7 @@ public class DatosMedicos {
     public var RitmoCardiaco: Double
     public var PresionArterial: Double
     public var Estatura: Double
+    public var Descripcion: String
     public var Tags: [Tag]
     public var isLoaded: Bool
     
@@ -24,6 +25,7 @@ public class DatosMedicos {
         RitmoCardiaco = 0.0
         PresionArterial = 0.0
         Estatura = 0.0
+        Descripcion = ""
         Tags = []
         isLoaded = false
     }
@@ -51,6 +53,7 @@ public struct InformacionMedica: Encodable, ToJson{
     public var Presion: Double
     public var Estatura: Double
     public var TipoSangre: String
+    public var Descripcion: String
     public var Tags: [TagCliente]
     
     public var toDictionary: [String: Any]? {
@@ -60,12 +63,13 @@ public struct InformacionMedica: Encodable, ToJson{
         return json
     }
     
-    public init(peso: Double, ritmo: Double, presion: Double, estatura: Double, tipo: String, tags: [TagCliente]) {
+    public init(peso: Double, ritmo: Double, presion: Double, estatura: Double, tipo: String, descripcion: String, tags: [TagCliente]) {
         Peso = peso
         Ritmo = ritmo
         Presion = presion
         Estatura = estatura
         TipoSangre = tipo
+        Descripcion = descripcion
         Tags = tags
     }
 }
